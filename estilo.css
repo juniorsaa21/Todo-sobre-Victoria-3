@@ -1,0 +1,517 @@
+
+body {
+	background: radial-gradient(circle, #3d4547, #1e2d28 );
+}
+
+
+h1 {
+	font-family: boromir;
+	color:  #f3e2d8;
+	display: block;
+	margin-left: 30px;
+}
+
+h2 {
+	font-family: victorian decade;
+	font-weight: 20;
+	color: #f3e2d8;
+}
+
+
+p {
+	font-family: adorn roman; 
+	color: #f3e2d8;
+}
+
+a {
+	font-family: adorn roman;
+	color: #9c928d;
+}
+
+
+.contenedor-imagen-fixed {
+	width: 100%;
+	height: 400px;
+	background-image: url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/05/victoria-3-keyart.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+@media only screen and (max-width: 450px){
+	.contenedor-imagen-fixed {
+		width: 100%;
+		height: 200px;
+		background-attachment: fixed;
+	    background-size: 100%;
+	}
+}
+	
+
+.container-comprar {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	margin-block: 10px;
+	align-items: center;
+	transition-duration: 1s;
+}
+
+.div-comprar1 {
+	display: flex;
+	font-size: 100px;
+	margin-top: -200px;
+	font-size: 150px;
+}
+
+.div-comprar2 {
+	display: flex;
+	margin-top: 50px;
+}
+
+.button-comprar {
+	width: 300px;
+	background-color: #3a1c28;
+	color: #f3e2d8;
+	font-size: 20px;
+	font-family: adorn roman; 
+	border: none;
+	padding: 5px 10px;
+	border: 1px outset #d6bd83;
+	transition-duration: 0.2s;
+	border-radius: 5px;
+}
+
+.container-comprar button:hover {
+	background-color: #24131b;
+	border: 1px outset #d6bd83;
+}
+
+@media only screen and (max-width: 450px) {
+	.div-comprar1 {
+	display: flex;
+	margin-top: -50px;
+	margin-bottom: -80px;
+	font-size: 60px;
+	}
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+.mod h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mod p {
+	display: inline-block;
+	width: 70%;
+}
+
+
+.container-mods {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.mod {
+	width: 45%;
+	height: 200px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #3a1c28;
+	color: #f3e2d8;
+	padding: 5px;
+	margin: 3px;
+	border: 3px outset #d6bd83 ;
+	border-radius: 10px;
+}
+
+.mod a {
+	transition-property: color;
+	transition-duration: 0.2s;
+}
+.img-mod {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	right: 10px;
+	top: 5px;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+
+.mod a:hover {
+	color: #d6bd83;
+}
+
+@media only screen and (max-width: 830px) {
+	.mod h2 {
+	width: 70%;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	}
+
+	.texto-tablet p {
+	display: inline-block;
+	width: 70%;
+	margin-bottom: 10px;
+	font-size: 13px;
+	}
+
+	.img-mod {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right: 10px;
+	top: 10px;
+	margin-top: 5px;
+	border-radius: 15px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.texto-tablet {
+		font-size: 10px;
+	}
+
+	.mod p {
+		display: inline-block;
+		width: 70%;
+		font-size: 13px;
+	}
+
+
+	.container-mods {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.mod {
+		width: 95%;
+		height: 200px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		background-color: #3a1c28;
+		color: #f3e2d8;
+		padding: 5px;
+		margin: 3px;
+		border: 3px outset #d6bd83 ;
+		border-radius: 10px;
+	}
+
+	.mod a {
+		transition-property: color;
+		transition-duration: 0.2s;
+	}
+	.img-mod {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		right: 10px;
+		top: 5px;
+		margin-top: 5px;
+		border-radius: 15px;
+	}
+
+	.mod a:hover {
+		color: #d6bd83;
+	}
+}
+
+
+
+.youtubers {
+	width: 350px;
+	height: 200px;
+	background-color: #3a1c28;
+	color: #f3e2d8;
+	padding: 5px;
+	margin: 5px;
+	border: 3px outset #d6bd83;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 7px;
+}
+
+.img-youtubers {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	margin: auto;
+	border-radius: 50%;
+}
+
+.li-youtubers {
+	display: inline-block;
+}
+
+.ul-youtubers a {
+	transition-property: color;
+	transition-duration: 0.2;
+}
+
+.h2-youtubers {
+	text-align: center;
+}
+
+.primera {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.segunda {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tercera {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.li-youtubers:hover {
+	color: #d6bd83;
+}
+.li-youtubers a:hover {
+	color: #d6bd83;
+}
+
+
+
+
+
+
+
+
+.tutorialmodo1 {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.tutorialmodo2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.texto-tutoriales-modo1 {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 8%;
+	align-content: center;
+	transition-duration: 0.2s;
+}
+
+
+.texto-tutoriales-modo2 {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 8%;
+	align-content: center;
+	transition-duration: 0.2s;
+}
+
+.tutorialmodo1 img {
+	width: 40%;
+	margin: 5%;
+	border-radius: 10px;
+}
+
+.tutorialmodo2 img {
+	width: 40%;
+	margin: 5%;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+	.texto-tutoriales-modo1 {
+		align-content: none;
+		width: 95%;
+		margin: auto;
+	}
+	.texto-tutoriales-modo2 {
+		align-content: none;
+		width: 95%;
+		margin: auto;
+	}
+	.tutorialmodo1 img {
+		width: 90%;
+		height: 100%;
+		margin: 5%;
+		border-radius: 10px;
+	}
+
+	.tutorialmodo2 img {
+		width: 90%;
+		height: 100%;
+		margin: 5%;
+		border-radius: 10px;
+	}
+	.tutorialmodo1 {
+		border-bottom: 10px solid #24131b;
+	}
+	.tutorialmodo2 {
+		border-bottom: 10px solid #24131b;
+	}
+}
+
+.texto-tutoriales-modo1 h2 {
+	font-size: 30px;
+}
+
+.texto-tutoriales-modo2 h2 {
+	font-size: 30px;
+}
+
+.texto-tutoriales-modo1 p {
+	font-size: 18px;
+}
+
+.texto-tutoriales-modo2 p {
+	font-size: 18px;
+}
+
+.texto-tutoriales-modo1 a {
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+
+.texto-tutoriales-modo2 a {
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+
+
+
+.texto-tutoriales-modo1 a:hover {
+	color: #d6bd83;
+}
+
+.texto-tutoriales-modo2 a:hover {
+	color: #d6bd83;
+}
+
+
+
+
+
+
+.img-desarrollo {
+	width: 100%;
+}
+
+.container-desarrollo {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	justify-content: space-around;
+	margin-block: 10px;
+	margin: 15px 2% ;
+}
+
+.button-desarrollo {
+	background-color: #3a1c28;
+	color: #f3e2d8;
+	font-size: 20px;
+	font-family: adorn roman; 
+	border: none;
+	padding: 5px 10px;
+	border: 1px outset #d6bd83;
+	transition-property: background;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+}
+
+.button-desarrollo:hover {
+	background-color: #24131b;
+}
+
+@media only screen and (max-width: 450px) {
+	.button-desarrollo {
+		margin-bottom: 12px;
+	}
+}
+
+
+
+
+.container-partidas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-block: 10px;
+	margin: 10px 100px;
+	transition-property: color;
+	transition-duration: 0.2;
+}
+
+.div-partidas {
+	width: 17%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #3a1c28;
+	color: #f3e2d8;
+	padding: 5px;
+	margin: 3px;
+	border: 3px outset #d6bd83 ;
+	align-items: center;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.div-partidas a {
+	transition-property: color;
+	transition-duration: 0.2s;
+}
+
+.img-partidas {
+	width: 90%;
+}
+
+.container-partidas a:hover {
+	color: #d6bd83;
+}
+
+@media only screen and (max-width: 450px) {
+	.div-partidas {
+		width: 30%;
+	}
+	.container-partidas {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 10px 10px;
+		transition-property: color;
+		transition-duration: 0.2;
+	}
+}
+
+
+
+
+
+
+
+
