@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Victorian Decade Gradient';
+    src: url('VictorianDecade-Gradient.eot');
+    src: local('Victorian Decade Gradient'), local('VictorianDecade-Gradient'),
+        url('VictorianDecade-Gradient.eot?#iefix') format('embedded-opentype'),
+        url('VictorianDecade-Gradient.woff2') format('woff2'),
+        url('VictorianDecade-Gradient.woff') format('woff'),
+        url('VictorianDecade-Gradient.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Victorian Decade Outline';
+    src: url('VictorianDecade-Outline.eot');
+    src: local('Victorian Decade Outline'), local('VictorianDecade-Outline'),
+        url('VictorianDecade-Outline.eot?#iefix') format('embedded-opentype'),
+        url('VictorianDecade-Outline.woff2') format('woff2'),
+        url('VictorianDecade-Outline.woff') format('woff'),
+        url('VictorianDecade-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Victorian Decade Extrude';
+    src: url('VictorianDecade-Extrude.eot');
+    src: local('Victorian Decade Extrude'), local('VictorianDecade-Extrude'),
+        url('VictorianDecade-Extrude.eot?#iefix') format('embedded-opentype'),
+        url('VictorianDecade-Extrude.woff2') format('woff2'),
+        url('VictorianDecade-Extrude.woff') format('woff'),
+        url('VictorianDecade-Extrude.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Victorian Decade';
+    src: url('VictorianDecade-Regular.eot');
+    src: local('Victorian Decade'), local('VictorianDecade-Regular'),
+        url('VictorianDecade-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VictorianDecade-Regular.woff2') format('woff2'),
+        url('VictorianDecade-Regular.woff') format('woff'),
+        url('VictorianDecade-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
